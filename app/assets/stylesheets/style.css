@@ -655,14 +655,14 @@ body {
   line-height: 1.57;
   letter-spacing: 0.15em;
   font-size: 16px;
-  color: #666;
+  color: #c0c0c0;
   font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
   margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: #666;
+  color: #FFF;
 }
 
 a:hover {
@@ -707,8 +707,8 @@ form input[type="submit"] {
 header.header div.header__bar.row div.grid-6 a.post {
   padding: 8px 20px;
   font-size: 14px;
-  border: 2px solid #57C3E9;
-  color: #57C3E9;
+  border: 2px solid #c0c0c0;
+  color: #c0c0c0;
   font-weight: bold;
   text-align: center;
   border-radius: 3px;
@@ -738,7 +738,7 @@ header.header div.header__bar.row div.grid-6 a.post:hover {
 header.header {
   padding: 10px;
   border-bottom: 1px solid #D8D8D8;
-  background-color: #fff;
+  background-color: #000;
   position: fixed;
   top: 0;
   left: 0;
@@ -812,7 +812,7 @@ header.header .user_nav ul {
 }
 
 header.header .user_nav ul li {
-  background-color: #f0f0f0;
+  background-color: #c0c0c0;
 }
 
 header.header .user_nav ul li a {
@@ -910,7 +910,7 @@ div.contents.row div.content_post .more ul.more_list {
   width: 80px;
   right: 0;
   font-size: 12px;
-  background-color: #fff;
+  background-color: #c0c0c0;
   border: 1px solid #ddd;
   display: none;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -957,12 +957,12 @@ div.contents.row div.content_post span.name {
 
 div.contents.row div.content_post span.name a {
   display: block;
-  color: #aaa;
+  color: #fff;
 }
 
 div.contents.row div.content_post span.name a:hover {
   text-decoration: underline;
-  color: #aaa;
+  color: #fff;
 }
 
 div.contents.row div.content_post span.name span {
@@ -994,7 +994,7 @@ form textarea {
 }
 
 form input[type="submit"] {
-  background-color: #57C3E9;
+  background-color: #c0c0c0;
   border-radius: 20px;
   color: #fff;
   border: 0;
@@ -1057,3 +1057,32 @@ footer p {
 .search-form .search-btn {
   width: 10%;
 }
+
+.hero {
+  position: relative;
+  width: auto;
+  height: 600px;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(130%)
+}
+
+.hero-items {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: calc(25% - 120px);
+  width: 100%;
+  padding: 0 60px;
+}
+
+.hero-text__main {
+  font-size: 120px;
+  font-weight: 600;
+  
+}
+
