@@ -752,7 +752,7 @@ header.header div.header__bar.row {
 }
 
 header.header div.header__bar.row h1.grid-6 {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 41px;
   float: left;
 }
@@ -1038,6 +1038,7 @@ footer {
   margin: 30px auto;
   padding: 10px;
   color: #D8D8D8;
+  background-color: #000;
 }
 
 footer p {
@@ -1083,6 +1084,30 @@ footer p {
 .hero-text__main {
   font-size: 120px;
   font-weight: 600;
-  
+}
+
+.swing {
+  margin-top: 10px;
+  float: left;
+}
+.swing:hover {
+  animation-name: swing;
+  animation-duration: 2s;
+  animation-delay: .45s;
+}
+@-webkit-keyframes swing {
+  0%,100% {
+    -webkit-transform-origin: top center;
+  }
+  10% { -webkit-transform: rotate(-15deg); }
+  20% { -webkit-transform: rotate(10deg); }
+  30% { -webkit-transform: rotate(-5deg); }
+  40% { -webkit-transform: rotate(5deg); }
+  50% { -webkit-transform: rotate(-3deg); }
+  60% { -webkit-transform: rotate(2deg); }
+  70% { -webkit-transform: rotate(-2deg); }
+  80% { -webkit-transform: rotate(1deg); }
+  90% { -webkit-transform: rotate(-1deg); }
+  100% { -webkit-transform: rotate(0deg); }
 }
 
