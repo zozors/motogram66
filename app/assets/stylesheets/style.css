@@ -752,7 +752,7 @@ header.header div.header__bar.row {
 }
 
 header.header div.header__bar.row h1.grid-6 {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 41px;
   float: left;
 }
@@ -1111,3 +1111,4 @@ footer p {
   100% { -webkit-transform: rotate(0deg); }
 }
 
+  
